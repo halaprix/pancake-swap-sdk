@@ -81,5 +81,13 @@ export const WETH = {
     'WBNB',
     'Wrapped BNB',
     'https://www.binance.org'
+  ),
+  [ChainId.EMERALD]: new Token(
+    ChainId.EMERALD,
+    '0x21C718C22D52d0F3a789b752D4c2fD5908a8A733',
+    18,
+    'WROSE',
+    'Wrapped ROSE',
+    'https://www.oasis.dev'
   )
 }
